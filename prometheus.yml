@@ -6,8 +6,6 @@ director_uuid: ((director_uuid))
 releases:
 - name: prometheus
   version: latest
-- name: prometheus-custom
-  version: latest
 
 stemcells:
 - alias: trusty
