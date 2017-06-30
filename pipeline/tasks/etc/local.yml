@@ -58,11 +58,11 @@ cf_exporter:
     deployment_name: ${prometheus_cf_deployment_name}
   skip_ssl_verify: true
 #
-# mysqld_exporter:
-#   mysql:
-#     address: CHANGE_ME
-#     username: exporter
-#     password: CHANGE_ME
+mysqld_exporter:
+   mysql:
+     address: 192.168.0.100
+     username: exporter
+     password: CHANGE_ME
 
 nats:
   password: ${nats_password}
